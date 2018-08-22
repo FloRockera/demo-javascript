@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Moyenne</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+	var notes = [15,12,18,14,16,16,19,13,11,10,16,15];
+	
+	function CalculMoy(){
+		
+		var n = notes.length;
+		var somme = 0;
+		
+		for (i=0;i<n;i++){
+		somme += notes[i];
+		}
+		var resultat = somme/n;
+		
+		alert("La moyenne des notes est : "+resultat.toFixed(2));
+	}
+	
+	
+	</script>
+	
+	<button onclick="CalculMoy()">Moyenne</button>
+	
+</body>
+</html>

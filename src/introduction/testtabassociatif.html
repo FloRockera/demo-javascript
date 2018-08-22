@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tableau associatif</title>
+</head>
+<body>
+	<script type="text/javascript">
+	
+	var tableau_associatif={
+			"anatole":19,
+			"bernard":45,
+			"christophe":34,
+			"dominique":55,
+			"franck":28,
+			"georges":78,
+			"lucas":12,
+			"madeleine":30,
+			"pierre":25,
+	}
+	
+	function TrouveAge() {
+	var prenom = document.getElementById("prenom").value;
+	
+	
+	prenomMaj = prenom.charAt(0).toUpperCase()+prenom.substr(1)
+	
+	alert("Cette page indique :"+prenomMaj);
+	}
+	
+	
+	
+	</script>
+	
+	<form method="POST" action="/page-hmtl-formalaire">
+	Prénom <input type="text" name="prenom" id="prenom" />
+		
+	</form>
+
+	<button onclick="TrouveAge()">Quel âge as-tu ?</button>
+
+</body>
+</html>

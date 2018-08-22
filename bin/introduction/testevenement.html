@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Evenement</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+	function Couleur(elt){
+	document.getElementById("monDiv").style.backgroundColor=elt.id;
+	}
+	
+	</script>
+</head>
+<body>
+
+
+<button onclick="Couleur(this)" id="lavenderblush">Rose</button>
+<button onclick="Couleur(this)" id="lightgreen">Vert clair</button>
+<button onclick="Couleur(this)" id="gold">Or</button>
+<button onclick="Couleur(this)" id="paleturquoise">bleu</button>
+
+
+<div id="monDiv"
+style="height:200px; width:200px; background-color:black">
+</div>
+
+
+</body>
+</html>

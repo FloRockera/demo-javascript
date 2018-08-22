@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+</head>
+<body>
+	<table border="2" align="center" caption="Je suis un titre de tableau">
+		<script type="text/javascript">
+			
+		
+		/*for (i = 1; i < 4; i++) {
+
+				document.write("<tr>");
+
+				for (j = 1; j < 5; j++) {
+				}
+
+				document.write("<\tr>");
+			}*/
+			
+			for (var i=1; i<13; i++){
+				document.write("<td align='center'>", i, "</td>");
+				
+				if (i % 4 == 0) {
+					
+					document.write("<tr>", "</tr>");
+				}
+			}
+			
+		</script>
+
+	</table>
+</body>
+</html>
